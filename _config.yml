@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Samp's Blog"
+title                    : "Site Title"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Titis Sampurno"
@@ -108,7 +108,7 @@ analytics:
 # Site Author
 author:
   name             : "Titis Sampurno"
-  avatar           : "31209.jpg"
+  avatar           : "/assets/images/31209.jpg"
   bio              : "Harta Tahta Wanita"
   location         : "Ciwaruga, Bandung"
   email            :
