@@ -1,0 +1,1 @@
+Pelajarannya adalah proyek sangat melelahkan namun dunia kerja mungkin lebih melelahkan jadi pelajaran yang diambil belajar supaya ketika di dunia kerja nanti tidak kaget dalam menjalani dunia kerja tersebut
