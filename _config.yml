@@ -119,18 +119,18 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://your-website.com"
-    - label: "s9mp"
+    - label: "titissamp"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/Titissamp"
     - label: "Titis Sampurno"
       icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/"
+      url: "https://web.facebook.com/titis.sampurno.1?ref=bookmarks"
     - label: "titissamp"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/titissamp/titis.github.io"
     - label: "titissampurno"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://www.instagram.com/titissampurno/"
 
 # Site Footer
 footer:
