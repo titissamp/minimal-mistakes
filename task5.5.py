@@ -3,10 +3,11 @@ import datetime
 import json
 from bs4 import BeautifulSoup
 
-republika={
+Terkini={
     "time":"",
-    "category":"",
-    "tittle":""
+    "kategori":"",
+    "judul":"",
+    "tanggal":""
 }
 
 data = []
@@ -15,13 +16,15 @@ page = requests.get("https://www.republika.co.id/")
 obj = BeautifulSoup(page.text,'html.parser');
 
 for headline in obj.find_all('div', class_='conten1'):
-    republika["category"] = (headline.find('h1').text)
-    republika["tittle"] = (headline.find('h2').text)
+    Terkini["kategori"] = headline.find('h1').text
+    Terkini["judul"] = headline.find('h2').text
+    Terkini["tanggal"] = headline.find('div', class_='date').text
     date = datetime.datetime.now()
-    today = data.strftime("%A")+", "+date.strftime("%d")+" "+data.strftime("%B")+" "+data.strftime("%Y")
-    republika["time"] = today
+    today = date.strftime("%A")+", "+date.strftime("%d")+" "+date.strftime("%B")+" "+date.strftime("%Y")
+    Terkini["time"] = today
 
-    data.append (str(republika))
+    data.append (dict(Terkini))
+    print(Terkini)
 
-with open ("headline.json", "w") as write_file:
-    json.dump(data, write_file)
+with open ("Terkini.json", "w") as write_file:
+    json.dump(data, write_file, indent=4)
